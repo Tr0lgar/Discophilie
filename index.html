@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Discophilie</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+        </div>
+        <nav aria-label="Navigation principale">
+            <ul>
+                <li><a href="#collection" aria-label="Voir la collection">Collection</a></li>
+                <li><a href="#wishlist" aria-label="Voir la wishlist">Wishlist</a></li>
+            </ul>
+            <div class="dark-mode-toggle" aria-label="Changer le thème en mode sombre">
+                <input type="checkbox" id="dark-mode-switch" class="dark-mode-checkbox" aria-checked="false">
+                <label for="dark-mode-switch" class="dark-mode-label">
+                    <span class="dark-mode-slider"></span>
+                </label>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main>
+            <section id="derniers-ajouts" class="section derniers-ajouts">
+                <h2>Derniers Ajouts</h2>
+                <div class="album-grid">
+                    <div class="album-card">
+                        <img src="images/from-zero.jpg" alt="Cover de l'album From Zero de Linkin Park" loading="lazy">
+                        <div class="album-details">
+                            <h3>From Zero</h3>
+                            <p>Linkin Park</p>
+                        </div>
+                    </div>
+                    <div class="album-card">
+                        <img src="images/heritage.jpg" alt="Cover de l'album Héritage de Davodka" loading="lazy">
+                        <div class="album-details">
+                            <h3>Héritage</h3>
+                            <p>Davodka</p>
+                        </div>
+                    </div>
+                    <div class="album-card">
+                        <img src="images/definitely-maybe.jpg" alt="Cover de l'album Definitely Maybe de Oasis" loading="lazy">
+                        <div class="album-details">
+                            <h3>Definitely Maybe</h3>
+                            <p>Oasis</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="top-5" class="section top-5">
+                <h2>Top 5</h2>
+                <div class="top-5-grid">
+                    <div class="top-album">
+                        <span class="rank">1</span>
+                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <div class="album-info">
+                            <h3>Album Title</h3>
+                            <p>Artist Name</p>
+                        </div>
+                    </div>
+
+                    <div class="top-album">
+                        <span class="rank">2</span>
+                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <div class="album-info">
+                            <h3>Album Title</h3>
+                            <p>Artist Name</p>
+                        </div>
+                    </div>
+
+                    <div class="top-album">
+                        <span class="rank">3</span>
+                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <div class="album-info">
+                            <h3>Album Title</h3>
+                            <p>Artist Name</p>
+                        </div>
+                    </div>
+
+                    <div class="top-album">
+                        <span class="rank">4</span>
+                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <div class="album-info">
+                            <h3>Album Title</h3>
+                            <p>Artist Name</p>
+                        </div>
+                    </div>
+
+                    <div class="top-album">
+                        <span class="rank">5</span>
+                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <div class="album-info">
+                            <h3>Album Title</h3>
+                            <p>Artist Name</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="playlist" class="section playlist">
+                <h2>Playlist Mensuelle</h2>
+                <div class="spotify-embed">
+                    <iframe src="https://open.spotify.com/embed/playlist/VOTRE_ID_PLAYLIST" 
+                            width="100%" height="380" 
+                            frameborder="0" 
+                            allowtransparency="true" 
+                            allow="encrypted-media"></iframe>
+                </div>
+            </section>
+        </main>
+
+        
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Ma Discophilie. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">Instagram</a>
+                <a href="#" class="social-icon">Spotify</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
