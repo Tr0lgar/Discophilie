@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ma Discophilie</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/035197c593.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="/images/logo-light.png" alt="Logo" class="logo" id="logo"></a>
         </div>
         <nav aria-label="Navigation principale">
             <ul>
@@ -20,7 +21,10 @@
             <div class="dark-mode-toggle" aria-label="Changer le thème en mode sombre">
                 <input type="checkbox" id="dark-mode-switch" class="dark-mode-checkbox" aria-checked="false">
                 <label for="dark-mode-switch" class="dark-mode-label">
-                    <span class="dark-mode-slider"></span>
+                    <span class="dark-mode-slider">
+                        <span class="icon sun-icon"><i class="fa-solid fa-sun"></i></span>
+                        <span class="icon moon-icon"><i class="fa-solid fa-moon"></i></span>
+                    </span>
                 </label>
             </div>
         </nav>
@@ -59,46 +63,46 @@
                 <div class="top-5-grid">
                     <div class="top-album">
                         <span class="rank">1</span>
-                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <img src="images/adieu.jpg" alt="Top Album 1 - Adieu par KIK" loading="lazy">
                         <div class="album-info">
-                            <h3>Album Title</h3>
-                            <p>Artist Name</p>
+                            <h3>Adieu</h3>
+                            <p>KIK</p>
                         </div>
                     </div>
 
                     <div class="top-album">
                         <span class="rank">2</span>
-                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <img src="images/nevermind.jpg" alt="Top Album 2 - Nevermind de Nirvana" loading="lazy">
                         <div class="album-info">
-                            <h3>Album Title</h3>
-                            <p>Artist Name</p>
+                            <h3>Nevermind</h3>
+                            <p>Nirvana</p>
                         </div>
                     </div>
 
                     <div class="top-album">
                         <span class="rank">3</span>
-                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <img src="images/from-zero.jpg" alt="Top Album 3 - From Zero de Linkin Park" loading="lazy">
                         <div class="album-info">
-                            <h3>Album Title</h3>
-                            <p>Artist Name</p>
+                            <h3>From Zero</h3>
+                            <p>Linkin Park</p>
                         </div>
                     </div>
 
                     <div class="top-album">
                         <span class="rank">4</span>
-                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <img src="images/dark-side-of-the-moon.png" alt="Top Album 4 - Dark Side of The Moon par Pink Floyd" loading="lazy">
                         <div class="album-info">
-                            <h3>Album Title</h3>
-                            <p>Artist Name</p>
+                            <h3>Dark Saide of The Moon</h3>
+                            <p>Pink Floyd</p>
                         </div>
                     </div>
 
                     <div class="top-album">
                         <span class="rank">5</span>
-                        <img src="images/from-zero.jpg" alt="Top Album 1" loading="lazy">
+                        <img src="images/good-am.jpg" alt="Top Album 5 - Good AM de Mac Miller" loading="lazy">
                         <div class="album-info">
-                            <h3>Album Title</h3>
-                            <p>Artist Name</p>
+                            <h3>Good AM</h3>
+                            <p>Mac Miller</p>
                         </div>
                     </div>
                 </div>
@@ -107,11 +111,11 @@
             <section id="playlist" class="section playlist">
                 <h2>Playlist Mensuelle</h2>
                 <div class="spotify-embed">
-                    <iframe src="https://open.spotify.com/embed/playlist/VOTRE_ID_PLAYLIST" 
-                            width="100%" height="380" 
-                            frameborder="0" 
-                            allowtransparency="true" 
-                            allow="encrypted-media"></iframe>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7rQ1fwCcyB4n0dip5HCpmw?utm_source=generator&theme=0"
+                    width="100%" height="352"
+                    frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
                 </div>
             </section>
         </main>
@@ -122,8 +126,8 @@
         <div class="footer-content">
             <p>&copy; 2024 Ma Discophilie. Tous droits réservés.</p>
             <div class="social-links">
-                <a href="#" class="social-icon">Instagram</a>
-                <a href="#" class="social-icon">Spotify</a>
+                <a href="https://www.instagram.com/mathis_drwl/" class="social-icon">Instagram</a>
+                <a href="https://open.spotify.com/user/sx9vv5vkm2co87stqc73p1b3l?si=ad4323cb05a24fc5" class="social-icon">Spotify</a>
             </div>
         </div>
     </footer>
