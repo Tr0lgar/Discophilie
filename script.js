@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const logo = document.getElementById('logo');
     const header = document.querySelector('header');
 
-    const lightLogoSrc = '/images/logo-light.png';
-    const darkLogoSrc = '/images/logo-dark.png';
+    const lightLogoSrc = 'images/logo-light.png';
+    const darkLogoSrc = 'images/logo-dark.png';
 
     // Check for saved dark mode preference
     const savedDarkMode = localStorage.getItem('darkMode');
