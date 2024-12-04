@@ -3,21 +3,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const body = document.body;
     const logo = document.getElementById('logo');
     const header = document.querySelector('header');
+    const burgerMenu = document.getElementById('burger-menu');
+    const navMenu = document.getElementById('nav-menu');
 
     const lightLogoSrc = 'images/logo-light.png';
     const darkLogoSrc = 'images/logo-dark.png';
 
-    // Check for saved dark mode preference
+    // Dark Mode Logic (Previously Existing)
     const savedDarkMode = localStorage.getItem('darkMode');
-
-    // If user previously enabled dark mode
     if (savedDarkMode === 'enabled') {
         body.classList.add('dark-mode');
         darkModeSwitch.checked = true;
         logo.src = darkLogoSrc;
     }
 
-    // Toggle dark mode
     darkModeSwitch.addEventListener('change', () => {
         if (darkModeSwitch.checked) {
             body.classList.add('dark-mode');
@@ -30,6 +29,23 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Burger Menu Toggle
+    burgerMenu.addEventListener('click', () => {
+        burgerMenu.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        body.classList.toggle('menu-open');
+    });
+
+    // Close menu when a nav link is clicked
+    document.querySelectorAll('#nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            burgerMenu.classList.remove('active');
+            navMenu.classList.remove('active');
+            body.classList.remove('menu-open');
+        });
+    });
+
+    // Header Scroll Logic (Previously Existing)
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
             header.classList.add('header-small');
