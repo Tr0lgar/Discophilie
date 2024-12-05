@@ -25,12 +25,12 @@
 
 /* Dark Mode Color Overrides */
 .dark-mode {
-    --bg-primary: #121212;
-    --bg-secondary: #1E1E1E;
-    --text-primary: #ffffff;
-    --text-secondary: #B0B0B0;
-    --accent-color: #ffffff;
-    --hover-color: #888888;
+    --bg-primary: #2c2c34;
+    --bg-secondary: #3a3a46;
+    --text-primary: #f0f0f0;
+    --text-secondary: #a8a8b3;
+    --accent-color: #e0e0e8;
+    --hover-color: #4d4d5a;
 }
 
 /* 
