@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const lightLogoSrc = 'images/logo-light.png';
     const darkLogoSrc = 'images/logo-dark.png';
 
-    // Dark Mode Logic (Previously Existing)
+    // Dark Mode Logic
     const savedDarkMode = localStorage.getItem('darkMode');
     if (savedDarkMode === 'enabled') {
         body.classList.add('dark-mode');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Header Scroll Logic (Previously Existing)
+    // Header Scroll Logic
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
             header.classList.add('header-small');
