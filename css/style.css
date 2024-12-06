@@ -403,7 +403,10 @@ footer {
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        transition: left 0.3s ease-in-out;
+        background-color: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(100px);
+        -webkit-backdrop-filter: blur(100px); /* Pour Safari */
+        transition: left var(--transition-speed) ease-in-out;
         z-index: 1000;
     }
 
