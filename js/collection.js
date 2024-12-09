@@ -52,19 +52,19 @@ document.addEventListener('DOMContentLoaded', () => {
         { 
             artist: "KIK", 
             album: "Adieu", 
-            coverImage: "images/adieu.jpg", 
+            coverImage: "../images/adieu.jpg", 
             spotifyTrackId: "3rrpjOZv9lJ0hDVh7TMBOS?si=d4ef71d94eea47ca"
         },
         { 
             artist: "KIK", 
             album: "Puzzle", 
-            coverImage: "images/puzzle.jpg", 
+            coverImage: "../images/puzzle.jpg", 
             spotifyTrackId: "3gmmdCZ7MjjEu4QCgUGzXk?si=8ac1f23e96f844e4"
         },
         { 
             artist: "KIK", 
             album: "Rubi", 
-            coverImage: "images/rubi.jpg", 
+            coverImage: "../images/rubi.jpg", 
             spotifyTrackId: "2HCyZ4QicGE2el0lUSPGEU?si=b96e39cf02ce4e72"
         },
         { 
