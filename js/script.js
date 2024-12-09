@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const burgerMenu = document.getElementById('burger-menu');
     const navMenu = document.getElementById('nav-menu');
 
-    const lightLogoSrc = 'images/logo-light.png';
-    const darkLogoSrc = 'images/logo-dark.png';
+    const lightLogoSrc = '../images/logo-light.png';
+    const darkLogoSrc = '../images/logo-dark.png';
 
     // Dark Mode Logic
     const savedDarkMode = localStorage.getItem('darkMode');

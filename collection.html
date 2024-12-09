@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+    <script src="https://kit.fontawesome.com/035197c593.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/collection.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html"><img src="images/logo-light.png" alt="Logo" class="logo" id="logo"></a>
+        </div>
+        
+        <div class="burger-menu" id="burger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <nav aria-label="Navigation principale" id="nav-menu">
+            <ul>
+                <li><a href="#collection" aria-label="Voir la collection">Collection</a></li>
+                <li><a href="#wishlist" aria-label="Voir la wishlist">Wishlist</a></li>
+            </ul>
+            <div class="dark-mode-toggle" aria-label="Changer le thème en mode sombre">
+                <input type="checkbox" id="dark-mode-switch" class="dark-mode-checkbox" aria-checked="false">
+                <label for="dark-mode-switch" class="dark-mode-label">
+                    <span class="dark-mode-slider">
+                        <span class="icon sun-icon"><i class="fa-solid fa-sun"></i></span>
+                        <span class="icon moon-icon"><i class="fa-solid fa-moon"></i></span>
+                    </span>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <section id="collection" class="section collection-section">
+                <h2>Ma Collection de Vinyles</h2>
+                
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Rechercher un album ou un artiste...">
+                </div>
+    
+                <div id="collection-grid" class="collection-grid">
+                    <!-- Vinyl records will be dynamically added here by JavaScript -->
+                </div>
+            </section>
+            
+        </main>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Ma Discophilie. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/mathis_drwl/" target="_blank" class="social-icon">Instagram</a>
+                <a href="https://open.spotify.com/user/sx9vv5vkm2co87stqc73p1b3l?si=ad4323cb05a24fc5" target="_blank" class="social-icon">Spotify</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
