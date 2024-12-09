@@ -4,91 +4,91 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             artist: "Depeche Mode", 
             album: "Memento Mori", 
-            coverImage: "../images/memento-mori.jpg", 
+            coverImage: "images/memento-mori.jpg", 
             spotifyTrackId: "4ZFIkAVwQYnmfxXQI1yEl0?si=7ad18b46b55546a0"
         },
         {
             artist: "Depeche Mode", 
             album: "Playing the Angel", 
-            coverImage: "../images/playing-the-angel.jpg", 
+            coverImage: "images/playing-the-angel.jpg", 
             spotifyTrackId: "6o7sC48NQwaTIMFpo3OjCz?si=02989e72b90249bb"
         },
         {
             artist: "Depeche Mode", 
             album: "Songs of Faith and Devotion", 
-            coverImage: "../images/songs-of-faith-and-devotion.jpg", 
+            coverImage: "images/songs-of-faith-and-devotion.jpg", 
             spotifyTrackId: "3qj2xGVJ7Sr4ISDPP5WVXy?si=38e0f9f24b264976"
         },
         {
             artist: "Dooz Kawa", 
             album: "Bohemian Rap Story", 
-            coverImage: "../images/bohemian-rap-story.jpg", 
+            coverImage: "images/bohemian-rap-story.jpg", 
             spotifyTrackId: "7Dg6YSfLTADFX1t0Nszy5B?si=cabc55b6bf8f42ea"
         },
         {
             artist: "Simony", 
             album: "ORIGINES : Euphoria", 
-            coverImage: "../images/origines-euphoria.jpg", 
+            coverImage: "images/origines-euphoria.jpg", 
             spotifyTrackId: "56qHBrzV0PEDyeAwVNPS8A?si=1a32ca464a5144cf"
         },
         { 
             artist: "Linkin Park", 
             album: "From Zero", 
-            coverImage: "../images/from-zero.jpg", 
+            coverImage: "images/from-zero.jpg", 
             spotifyTrackId: "1EDPVGbyPKJPeGqATwXZvN?si=322f683df1cb4f6c"
         },
         { 
             artist: "Davodka", 
             album: "Héritage", 
-            coverImage: "../images/heritage.jpg", 
+            coverImage: "images/heritage.jpg", 
             spotifyTrackId: "5WQ8gMAn4H79EIh8RY5Egw?si=3594a2b73d6f4a6e"
         },
         { 
             artist: "Oasis", 
             album: "Definitely Maybe", 
-            coverImage: "../images/definitely-maybe.jpg", 
+            coverImage: "images/definitely-maybe.jpg", 
             spotifyTrackId: "6BbILdQ9XCDwuCI7UglcVy?si=1443baa305b84b71"
         },
         { 
             artist: "KIK", 
             album: "Adieu", 
-            coverImage: "../images/adieu.jpg", 
+            coverImage: "images/adieu.jpg", 
             spotifyTrackId: "3rrpjOZv9lJ0hDVh7TMBOS?si=d4ef71d94eea47ca"
         },
         { 
             artist: "KIK", 
             album: "Puzzle", 
-            coverImage: "../images/puzzle.jpg", 
+            coverImage: "images/puzzle.jpg", 
             spotifyTrackId: "3gmmdCZ7MjjEu4QCgUGzXk?si=8ac1f23e96f844e4"
         },
         { 
             artist: "KIK", 
             album: "Rubi", 
-            coverImage: "../images/rubi.jpg", 
+            coverImage: "images/rubi.jpg", 
             spotifyTrackId: "2HCyZ4QicGE2el0lUSPGEU?si=b96e39cf02ce4e72"
         },
         { 
             artist: "Nirvana", 
             album: "Nevermind", 
-            coverImage: "../images/nevermind.jpg", 
+            coverImage: "images/nevermind.jpg", 
             spotifyTrackId: "2RsAajgo0g7bMCHxwH3Sk0?si=3b34a98fee8e464c"
         },
         {
             artist: "Nirvana",
             album: "In Utero",
-            coverImage: "../images/in-utero.jpg",
+            coverImage: "images/in-utero.jpg",
             spotifyTrackId : "66w5OYw2ja8lnmaA3Ns0PU?si=a19efd1875a54fed"
         },
         { 
             artist: "Pink Floyd", 
             album: "Dark Side of The Moon", 
-            coverImage: "../images/dark-side-of-the-moon.png", 
+            coverImage: "images/dark-side-of-the-moon.png", 
             spotifyTrackId: "7Gx2q0ueNwvDp2BOZYGCMO?si=d7b24f41bb354960"
         },
         { 
             artist: "Mac Miller", 
             album: "Good AM", 
-            coverImage: "../images/good-am.jpg", 
+            coverImage: "images/good-am.jpg", 
             spotifyTrackId: "7rdyAfIm1t6h6I1gyLtD17?si=e621481f026e4ea1"
         }
     ];
