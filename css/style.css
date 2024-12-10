@@ -370,6 +370,7 @@ footer {
     border-radius: 5px;
     background-color: var(--bg-secondary);
     color: var(--text-primary);
+    transition: var(--transition-speed);
 }
 
 .collection-grid {
